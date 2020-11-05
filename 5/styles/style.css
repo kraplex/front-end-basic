@@ -1,0 +1,49 @@
+@font-face {
+    src: url("../fonts/big_john.otf");
+    font-family: Big John;
+}
+
+.wrapper {
+    max-width: 1366px;
+    background-color: #9e8c6b;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    display: inline-block;
+    padding: 47px 0 0 98px;
+}
+
+.nav_link {
+    font-size: 25px;
+    color: #ffffff;
+    font-family: "Big John", sans-serif;
+    text-decoration: none;
+}
+
+.main {
+    padding: 207px 0 327px 376px;
+ }
+
+.content_title {
+    font-size: 35px;
+    letter-spacing: 7px;
+    color: #ffffff;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 100;
+    margin: 0 0 24px 116px;
+}
+.content_text {
+    margin: 0;
+    max-width: 626px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 31px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: 100;
+    text-align: center;
+}

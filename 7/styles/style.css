@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header {
+    background-color: rgb(255 255 255);
+    padding: 19px 0 20px 130px;
+}
+
+.logo_top {
+    max-width: 201px;
+    display: inline-block;
+    margin-right: 595px;
+}
+
+.logo_top_link {
+    display: inline-block;
+}
+
+.nav_list {
+    display: inline-block;
+    list-style: none;
+    vertical-align: 5px;
+
+}
+
+.nav_list_part {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.nav_list .nav_list_part:last-child {
+    margin-right: 0;
+}
+
+.nav_list_item {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 47px;
+    color: #2d394c;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+.main_sigh_up {
+    padding-left: 161px;
+    padding-top: 202px;
+    padding-bottom: 248px;
+    background-image: url("../images/bg_sign_up.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px 100%;
+    background-color: #54a3da;
+}
+
+.h1 {
+    max-width: 482px;
+    font-size: 52px;
+    line-height: 72px;
+    color: #f7f6f2;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: 700;
+    margin: 0 0 27px 0;
+}
+
+.main_sigh_up_tagline {
+    max-width: 484px;
+
+    font-size: 21px;
+    line-height: 47px;
+    color: #ffffff;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: 200;
+    margin-bottom: 58px;
+}
+
+.subscribe {
+    display: inline-block;
+    font-size: 16px;
+    color: #f7f7f7;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: 700;
+    margin: 0 0 36px 0;
+}
+
+.subscribe_free {
+    display: inline-block;
+    max-width: 57px;
+    min-height: 27px;
+    border-radius: 5px;
+    background-color: #ffce54;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 16px;
+    color: #f7f7f7;
+    font-weight: 700;
+    margin: 0;
+    padding: 8px 10px 0;
+}
+
+input {
+    font-size: 18px;
+    color: #2d394c;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    padding: 0 0 0 29px;
+    width: 423px;
+    height: 54px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin-right: 36px;
+}
+
+.sign_up_button {
+    max-width: 113px;
+    min-height: 55px;
+    border-radius: 5px;
+    background-color: #77c344;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: 600;
+    border-style: none;
+    padding: 18px 25px;
+}
+
+.clients {
+    background-color: rgb(247 247 247);
+    padding: 54px 0 55px 177px;
+}
+
+.clients_list {
+    list-style: none;
+}
+.clients_list_item {
+    display: inline-block;
+    margin-right: 120px;
+    vertical-align: middle;
+}
+
+.clients_list .clients_list_item:last-child {
+    margin-right: 0;
+}
+
+.clients_a {
+    display: inline-block;
+}
+
+.why_tankapp_block {
+    padding: 100px 0 130px 145px;
+    background-color: rgb(255 255 255);
+    background-image: url("../images/macbook_image.png");
+    background-repeat: no-repeat;
+    background-position: right 276px;
+}
+.why_tankapp_title {
+    font-size: 40px;
+    color: #2d394c;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: 500;
+    margin: 0 0 137px 547px;
+    text-transform: uppercase;
+}
+
+.why_tankapp_advantages_list {
+    list-style: none;
+}
+
+.why_tankapp_advantages_list_item {
+    margin-bottom: 50px;
+}
+
+.why_tankapp_advantages_list .why_tankapp_advantages_list_item:last-child {
+    margin-bottom: 0;
+}
+
+.why_tankapp_advantages_titles {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 22px;
+    color: #2d394c;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.why_tankapp_advantages_descr {
+    max-width: 480px;
+    font-size: 14px;
+    color: #9499a2;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+}
+
+.reliable:before {
+    content: url("../images/icons/sky.png");
+    vertical-align: -9px;
+    margin-right: 30px;
+}
+
+.organized:before {
+    content: url("../images/icons/clock.png");
+    vertical-align: -10px;
+    margin-right: 30px;
+}
+
+.support:before {
+    content: url("../images/icons/messages.png");
+    vertical-align: -17px;
+    margin-right: 30px;
+}
+
+.features:before {
+    content: url("../images/icons/papers.png");
+    vertical-align: -13px;
+    margin-right: 30px;
+}
+
+.why_tank_app_different {
+    background-color: rgb(246 246 246);
+    padding: 145px 0 123px 118px;
+    background-image: url("../images/ships_bg.png");
+    background-repeat: no-repeat;
+    background-position: right 87px;
+}
+
+.why_tank_app_different_title {
+    font-size: 40px;
+    color: #2d394c;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    margin: 0 0 142px 286px;
+}
+
+.why_tank_app_different_any_device {
+    display: inline-block;
+    font-size: 28px;
+    color: #2d394c;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.why_tank_app_different_any_device:before {
+    content: url("../images/icons/sky2.png");
+    margin-right: 29px;
+    vertical-align: -5px;
+}
+
+
+
+.why_tank_app_different_any_device_descr {
+    max-width: 738px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #5a626e;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    margin: 0 0 44px 0;
+}
+.scrol {
+    text-align: center;
+}
+
+.scrol_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.scrol_list_item {
+    display: inline-block;
+}
+.scrol_link {
+    text-decoration: none;
+    font-size: 15px;
+    color: #2d394c;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: 500;
+    display: inline-block;
+    text-align: center;
+    margin-right: 19px;
+}
+
+.scrol_link_page_1 {
+    background-image: url("../images/icons/digit_bg.png");
+    width: 27px;
+    height: 22px;
+    padding-top: 5px;
+}
+
+.save_time {
+    padding: 185px 0 155px 0;
+    background-color: white;
+}
+
+.save_time_title {
+    font-size: 40px;
+    color: #5a626e;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 66px;
+}
+
+.save_time_descr {
+    font-size: 24px;
+    line-height: 32px;
+    color: #5a626e;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+}
+
+.footer {
+    padding: 54px 0 54px 130px;
+    background-color: rgb(249 249 249);
+}
+
+.nav_footer {
+    display: inline-block;
+    vertical-align: 5px;
+}
+
+.nav_footer_list {
+    display: inline-block;
+    padding-right: 18px;
+    padding-left: 0;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-color: #777777;
+    margin: 0 21px 0 0;
+}
+
+.nav_footer_li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 39px;
+}
+
+.nav_footer_list .nav_footer_li:last-child {
+    margin-right: 0;
+}
+
+.footer_social_list {
+    display: inline-block;
+    list-style: none;
+    vertical-align: 5px;
+}
+
+.footer_social_li {
+    display: inline-block;
+    margin-right: 28px;
+    vertical-align: middle;
+}
+
+.footer_social_list .footer_social_li:last-child {
+    margin-right: 0;
+}
+
+.nav_footer_a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #4d5664;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: 300;
+}
+
+.logo_footer {
+    display: inline-block;
+    margin-right: 395px;
+}
+

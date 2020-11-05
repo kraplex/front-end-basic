@@ -1,0 +1,286 @@
+@font-face {
+    font-family: "Myriad Pro";
+    src: url("../fonts/myriad_pro.otf");
+}
+.wrapper {
+    max-width: 1250px;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    padding: 23px 0 0 140px;
+}
+
+.logo {
+    display: inline-block;
+    margin-right: 411px;
+}
+
+.logo_image {
+    display: inline-block;
+}
+
+.nav {
+    display: inline-block;
+    vertical-align: 10px;
+}
+
+.nav_list {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+ }
+
+.nav_list_item {
+    padding-bottom: 27px;
+    border-bottom: 3px solid #fff;
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+}
+
+.nav_list_item:hover {
+    border-bottom: 3px solid #5094f2;
+    box-sizing: content-box;
+}
+
+.nav_list_item_a {
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 0;
+    color: #6c6c6c;
+    font-family: "Myriad Pro",sans-serif;
+}
+
+.title_block {
+    background-color: #66777f;
+    background-image: url("../images/back_ground_main.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 38px 0 0 177px;
+    margin-bottom: 57px;
+}
+
+.main_image {
+    margin-right: 104px;
+    display: inline-block;
+}
+
+.wrapper_main {
+    display: inline-block;
+    vertical-align: 129px;
+}
+
+.title {
+    font-size: 42px;
+    color: #ffffff;
+    font-family: "Myriad Pro",sans-serif;
+    font-weight: 100;
+    margin: 0;
+}
+
+.title_text {
+    font-size: 26px;
+    line-height: 44px;
+    color: #ffffff;
+    font-family: "Myriad Pro",sans-serif;
+    margin-top: 0;
+    margin-bottom: 48px;
+
+}
+
+.sign_up_button_wrapper {
+    display: inline-block;
+    border-radius: 1px;
+    margin-left: 13px;
+    background-color: #5094f2;
+}
+
+.sign_up_button_wrapper:hover {
+    box-shadow: 0 0 5px white;
+    border-radius: 1px;
+}
+
+.sign_up_button {
+    font-size: 22px;
+    color: #ffffff;
+    font-family: "Myriad Pro",sans-serif;
+    text-decoration: none;
+    padding: 9px 11px 3px 10px;
+    display: inline-block;
+
+}
+.sign_up_icon {
+    margin-right: 9px;
+    display: inline-block;
+}
+
+.sign_up_link {
+    display: inline-block;
+    vertical-align: 5px;
+}
+
+.advantages {
+    padding-left: 140px;
+    margin-bottom: 92px;
+}
+
+.advantages_pencil {
+    float: left;
+    box-sizing: border-box;
+    margin-right: 134px;
+}
+
+.advantages_pc {
+    float: left;
+    box-sizing: border-box;
+    margin-right: 93px;
+}
+
+.advantages_basket {
+    float: left;
+    box-sizing: border-box;
+}
+
+.icon-pencil {
+    background-color: #4f94f2;
+    display: inline-block;
+    box-sizing: content-box;
+    padding: 38px 55px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+
+.advantages_pencil_title {
+    font-size: 20px;
+    line-height: 44px;
+    color: #5094f2;
+    font-family: "Myriad Pro",sans-serif;
+    margin: 0;
+    font-weight: 100;
+    text-align: center;
+}
+
+.advantages_pencil_text {
+    font-size: 14px;
+    color: #909090;
+    font-family: "Myriad Pro",sans-serif;
+    text-align: center;
+    margin: 0;
+    max-width: 248px;
+}
+
+.icon_pc {
+    background-color: #d94748;
+    display: inline-block;
+    box-sizing: content-box;
+    padding: 52px 45px 50px 47px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+.advantages_pc_title {
+    font-size: 20px;
+    line-height: 44px;
+    color: #5094f2;
+    font-family: "Myriad Pro",sans-serif;
+    margin: 0;
+    font-weight: 100;
+    text-align: center;
+}
+
+.advantages_pc_text {
+    font-size: 14px;
+    color: #909090;
+    font-family: "Myriad Pro",sans-serif;
+    text-align: center;
+    margin: 0;
+    max-width: 248px;
+}
+
+.icon_basket {
+    background-color: #ebbb11;
+    display: inline-block;
+    box-sizing: content-box;
+    padding: 47px 45px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+.advantages_basket_title {
+    font-size: 20px;
+    line-height: 44px;
+    color: #5094f2;
+    font-family: "Myriad Pro",sans-serif;
+    margin: 0;
+    font-weight: 100;
+    text-align: center;
+}
+
+.advantages_basket_text {
+    font-size: 14px;
+    color: #909090;
+    font-family: "Myriad Pro",sans-serif;
+    text-align: center;
+    margin: 0;
+    max-width: 248px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.product {
+    padding-left: 158px;
+}
+.product_title_left {
+    font-size: 42px;
+    color: #6f7173;
+    font-family: "Myriad Pro", sans-serif;
+    margin: 0 0 35px 10px;
+    font-weight: 100;
+}
+
+.product_title_right {
+    font-size: 26px;
+    color: #6f7173;
+    font-family: "Myriad Pro", sans-serif;
+    margin: 0 0 22px 0;
+    font-weight: 100;
+}
+
+.product_descr {
+    max-width: 547px;
+    height: 339px;
+    font-size: 15px;
+    color: #909090;
+    font-family: "Myriad Pro", sans-serif;
+    line-height: 36px;
+    margin: 0;
+}
+
+.float_left {
+    float: left;
+    margin-right: 83px;
+}
+
+.float_right {
+    float: left;
+    padding-top: 55px;
+}
+
+.footer {
+    border-top: 1px solid #e5e5e5;
+    padding-top: 21px;
+    padding-bottom: 33px;
+}
+.footer_text {
+    font-size: 15px;
+    color: #909090;
+    font-family: "Myriad Pro", sans-serif;
+    margin: 0;
+    text-align: center;
+}
+

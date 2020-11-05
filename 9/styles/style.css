@@ -1,0 +1,69 @@
+
+* {
+    margin: 0;
+}
+
+
+.level_1 {
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    background-color: rebeccapurple;
+    border-style: solid;
+    border-width: 1px;
+}
+.smartphones_list {
+    display: none;
+    text-align: left;
+    background-color: aquamarine;
+    border-style: solid;
+    border-width: 1px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+.smartphones:hover .smartphones_list {
+    display: block;
+}
+
+.tv_list {
+    display: none;
+    text-align: left;
+    background-color: bisque;
+    border-style: solid;
+    border-width: 1px;
+    position: absolute;
+    top: 20px;
+    left: 127px;
+}
+
+.tv:hover .tv_list {
+    display: block;
+}
+
+.lg_list {
+    display: none;
+    text-align: left;
+    background-color: darksalmon;
+    border-style: solid;
+    border-width: 1px;
+}
+.lg:hover .twenty {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 38px;
+}
+.lg:hover .twenty_two {
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 38px;
+}
+.lg:hover .twenty_four {
+     display: block;
+     position: absolute;
+     top: 60px;
+     left: 38px;
+ }
